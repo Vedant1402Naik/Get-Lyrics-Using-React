@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 15px 0;
+  color: rgb(6, 193, 193);
+  text-shadow: 3px 3px 5px rgba(213, 181, 181, 0.477);
+}
+
+input {
+  height: 30px;
+  text-align: center;
+  width: 180px;
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 160px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: antiquewhite;
+  background-color: cornflowerblue;
+  margin: 12px 0;
+}
+
+pre {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+/* Media Queries */
+
+/* For tablets and small desktops */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  input {
+    font-size: 13px;
+    width: 150px;
+    height: 28px;
+    padding: 6px;
+  }
+
+  .btn {
+    width: 140px;
+    height: 36px;
+    font-size: 13px;
+  }
+
+  pre {
+    font-size: 18px;
+  }
+}
+
+/* For large smartphones */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  input {
+    font-size: 12px;
+    width: 130px;
+    height: 24px;
+    padding: 6px;
+  }
+
+  .btn {
+    width: 100px;
+    height: 28px;
+    font-size: 10px;
+  }
+
+  pre {
+    font-size: 15px;
+  }
+}
+
+/* For small smartphones */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    font-size: 8px;
+    width: 100px;
+    height: 21px;
+    padding: 4px;
+  }
+
+  .btn {
+    width: 90px;
+    height: 28px;
+    font-size: 8px;
+  }
+
+  pre {
+    font-size: 10px;
+  }
+}
